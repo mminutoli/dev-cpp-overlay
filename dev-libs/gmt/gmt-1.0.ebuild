@@ -12,7 +12,7 @@ LICENSE="GPL-2"
 SLOT="0/$PV"
 KEYWORDS="~amd64 ~amd64-linux"
 
-RDEPEND="virtual/mpi"
+RDEPEND="|| ( sys-cluster/openmpi sys-cluster/mpich2 )"
 
 DEPEND="${RDEPEND}"
 
